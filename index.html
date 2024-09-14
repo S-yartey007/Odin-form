@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="side-image">
+    <img src="./images/ankit-dembla-2nPfrk0-xCE-unsplash.jpg" alt="side-image">
+   
+        <div class="logo-container">
+            <div class="logo-img">
+                <img src="./images/odin-lined.png" alt="logo" >
+            </div>
+            <p class="logo-text">
+                ODIN
+            </p>
+        </div>
+  
+  
+    </div>
+    <div class="right-content">
+       
+        <form action="#" method="post">
+            <section class="top-section">
+                <div class="intro-text">
+                    <p>This is a just introduction text</p>
+                </div>
+            </section>
+            <section class="middle-section">
+                <h3>Let's fill this form. Fields with <strong>*</strong> are compulsory</h3>
+                <ul>
+                    <li>
+                        <label for="First-name">*FirstName:</label>
+                        <input 
+                        type="text"
+                        id="First-name"
+                        name="user_First-name"
+                        required
+                        minlength="4"
+                        maxlength="30"
+                        >
+                    </li>
+                    <li>
+                        <label for="Last-name">*LastName:</label>
+                        <input type="text" 
+                        id="Last-name"
+                        name="user_Last-name" 
+                        required
+                        minlength="4"
+                        maxlength="30"
+                        >
+                    </li>
+                    <li>
+                        <label for="Email">*Email:</label>
+                        <input
+                          type="email"
+                          id="Email" 
+                          name="user_email" 
+                          required
+                          >
+                    </li>
+                    <li>
+                        <label for="Telephone">Phone number:</label>
+                        <input type="number" id="Telephone" name="user_tel" >
+                    </li>
+                    <li>
+                        <label for="Password">*Password:</label>
+                        <input type="password" id="Password" name="user_password" required>
+                    </li>
+                    <li>
+                        <label for="Confirm-password">*Confirm password:</label>
+                        <input type="password" id="Confirm-password" name="user_Confirm-password" required>
+                    </li>
+                </ul>
+            </section>
+            <section class="bottom-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an Account
+                    <a href="#">log in?</a>
+                </p>
+            </section>
+        </form>
+    </div>
+   
+</body>
+</html>
